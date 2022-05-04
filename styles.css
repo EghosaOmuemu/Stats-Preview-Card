@@ -57,7 +57,7 @@ span{
 .flex{
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 20px auto;
     line-height: 10px;
     width: 80%;
 }
@@ -78,12 +78,14 @@ img{
 @media screen and (max-width: 600px) {
     .container{
         grid-template-columns: 100%;
-        grid-template-rows: 400px 800px;      
+        grid-template-rows: 400px 800px;
+        width: 90%;      
     }
 
     .grid1{
         order: 2;
         text-align: center;
+        padding: 40px 20px;
     }
 
     .grid2{
